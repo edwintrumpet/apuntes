@@ -1,5 +1,10 @@
 <h1 align="center">Configuración inicial de entorno de desarrollo para MacOs</h1>
 
+## Índice
+
+- [Configuración de la terminal](#configuración-de-la-terminal)
+- [Instalar nvm](<#instalar-nvm-(gestor-de-versiones-de-node.js)>)
+
 ## Configuración de la terminal
 
 Descargar [Hyper](https://hyper.is/)

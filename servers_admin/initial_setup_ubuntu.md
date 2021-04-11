@@ -1,5 +1,10 @@
 <h1 align="center">Configuración inicial de entorno de desarrollo para Ubuntu</h1>
 
+## Índice
+
+- [Configuración de la terminal](#configuración-de-la-terminal)
+- [Instalar nvm](<#instalar-nvm-(gestor-de-versiones-de-node.js)>)
+
 ## Configuración de la terminal
 
 Instalar **zsh**
