@@ -100,8 +100,6 @@ Borrar tag en GitHub
 git push origin :refs/tags/<nombre del tag>
 ```
 
-[Volver al índice](../README.md)
-
 ## Alias
 
 Ver la lista de alias que he creado
@@ -135,3 +133,5 @@ Borrar el último commit sin perder los cambios
 ```shell
 git config --global alias.rmlast "reset --soft HEAD~1"
 ```
+
+[Volver al índice](../README.md)
