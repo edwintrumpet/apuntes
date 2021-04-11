@@ -3,7 +3,7 @@
 ## Índice
 
 - [Configuración de la terminal](#configuración-de-la-terminal)
-- [Instalar nvm](<#instalar-nvm-(gestor-de-versiones-de-node.js)>)
+- [Instalar nvm](#instalar-nvm)
 
 ## Configuración de la terminal
 
@@ -49,7 +49,9 @@ Agregar el plugin a la lista de plugins en el archivo `~/.zshrc` dejando un espa
 plugins(git zsh-autosuggestions)
 ```
 
-## Instalar nvm (gestor de versiones de Node.js)
+## Instalar nvm
+
+nvm es el gestor de versiones de Node.js
 
 Decargar [nvm](https://github.com/nvm-sh/nvm) con el comando
 
