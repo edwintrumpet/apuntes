@@ -1,38 +1,12 @@
-<h1 align="center">Configuración inicial de entorno de desarrollo</h1>
+<h1 align="center">Configuración inicial de entorno de desarrollo para Ubuntu</h1>
 
 ## Configuración de la terminal
-
-<details>
-  <summary>MacOs</summary>
-
-Descargar [Hyper](https://hyper.is/)
-
-Instalar el manejador de paquetes **Homebrew**
-
-```shell
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-```
-
-Usando Homebrew instalar **zsh**
-
-```shell
-brew install zsh
-```
-
-</details>
-
-<details>
-  <summary>Linux</summary>
 
 Instalar **zsh**
 
 ```shell
 sudo apt install zsh
 ```
-
-</details>
-
----
 
 Instalar [Oh my zsh](https://ohmyz.sh/)
 
