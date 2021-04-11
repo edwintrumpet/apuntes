@@ -5,6 +5,7 @@
 - [Configuraciones](#configuraciones)
 - [Conexión de GitHub por medio de SSH](#conexión-de-github-por-medio-de-ssh)
 - [Tags](#tags)
+- [Alias](#alias)
 
 ## Configuraciones
 
@@ -100,3 +101,37 @@ git push origin :refs/tags/<nombre del tag>
 ```
 
 [Volver al índice](../README.md)
+
+## Alias
+
+Ver la lista de alias que he creado
+
+```shell
+git config --get-regexp 'alias\.'
+```
+
+Crear alias
+
+```shell
+git config --global alias.<nombre del alias> "<script>"
+```
+
+### Algunos aliases últiles
+
+Listar logs en una sola línea
+
+```shell
+git config --global alias.list "log --oneline"
+```
+
+Ver logs de todas las ramas
+
+```shell
+git config --global alias.map "log --oneline --graph --decorate --all"
+```
+
+Borrar el último commit sin perder los cambios
+
+```shell
+git config --global alias.rmlast "reset --soft HEAD~1"
+```
