@@ -58,6 +58,31 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 Agregar el plugin a la lista de plugins en el archivo `~/.zshrc` dejando un espacio entre plugin y plugin
 
-```
+```shell
 plugins(git zsh-autosuggestions)
 ```
+
+## Instalar nvm (gestor de versiones de Node.js)
+
+Decargar [nvm](https://github.com/nvm-sh/nvm) con el comando
+
+```shell
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+```
+
+Al final del archivo `~/.zshrc` agregar
+
+```shell
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+```
+
+Instalamos la versión de Node.js con la que queremos trabajar usando **nvm**
+
+```shell
+nvm install v<versión de node>
+```
+
+Si por algún motivo Node.js no funciona debemos agregar nvm a la lista de plugins en el archivo `~/.zshrc`
+
+[Volver al índice](../README.md)
