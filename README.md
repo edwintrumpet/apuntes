@@ -3,3 +3,4 @@
 - Administración de servidores
   - [Configuración inicial de entorno de desarrollo para MacOs](./servers_admin/initial_setup_macos.md)
   - [Configuración inicial de entorno de desarrollo para Ubuntu](./servers_admin/initial_setup_ubuntu.md)
+  - [Git](./servers_admin/git.md)
